@@ -9,3 +9,4 @@ elif age in ranges:
 else:
     print("Come here personally so we can decide whether you can drive or not")
 
+#https://leancrew.com/all-this/2019/09/discontinuous-ranges-in-python/ "When you don't know how-tos just Google it :-)"
