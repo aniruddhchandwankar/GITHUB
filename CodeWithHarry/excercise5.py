@@ -9,7 +9,7 @@ def user():
     return b
 
 def type():
-    c = str(input("Do you want to Log Excercise or Food: "))
+    c = str(input("Do you want to Log Exercise or Food: "))
     c = c.lower()
     c = c.capitalize()
     return c
@@ -30,7 +30,7 @@ while (True):
         if log_type == "Food":
             with open ("Food_"+username+".txt", "a") as f:
                 date = str(getdate())
-                f.write(date)
+                f.write("[Date]") + f.write(date)
                 f.write("\n")
                 f.write(input("enter data: "))
                 f.write("\n")
@@ -39,7 +39,7 @@ while (True):
         elif log_type == "Exercise":
             with open ("Exercise_"+username+".txt", "a") as f:
                 date = str(getdate())
-                f.write(date)
+                f.write("[Date]") + f.write(date)
                 f.write("\n")
                 f.write(input("enter data: "))
                 f.write("\n")
