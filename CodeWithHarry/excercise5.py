@@ -52,12 +52,12 @@ while (True):
                 f.seek(0)
                 content = f.read()
                 print(content)
-                input("Entry has been logged. Thank you!, press ENTER to continue")
+                input("Hope you find the data useful, Thank you!. Press ENTER to continue")
         if log_type == "Food":
             with open("Food_"+username+".txt", "r") as f:
                 f.seek(0)
                 content = f.read()
                 print(content)
-                input("Entry has been logged. Thank you!, press ENTER to continue")
+                input("Hope you find the data useful, Thank you!. Press ENTER to continue")
 
 print("Process completed. Thank you, Goodbye")
