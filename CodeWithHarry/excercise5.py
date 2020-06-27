@@ -9,7 +9,7 @@ def user():
     return b
 
 def type():
-    c = str(input("Do you want to Log Exercise or Food: "))
+    c = str(input("Do you want to Log/retrieve data for Exercise or Food: "))
     c = c.lower()
     c = c.capitalize()
     return c
@@ -18,6 +18,8 @@ def type():
 #     y = str(input("Entry has been logged. Do you want to continue: "))
 #     y = y.lower()
 #     y = y.capitalize()
+
+print("This program is designed for you to log and view your daily exercise and food diet information. Please input your details daily to keep track of your progress")
 
 while (True):
     print("""Press '1' to Log user data\nPress '2' to Retrieve user data\nPress '3' to Exit""")
@@ -44,6 +46,7 @@ while (True):
                 f.write(input("enter data: "))
                 f.write("\n")
                 input("Entry has been logged. Thank you!, press ENTER to continue")
+                continue
     elif a == 2:
         username = str(user())
         log_type = str(type())
