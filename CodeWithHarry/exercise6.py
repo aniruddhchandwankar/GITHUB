@@ -51,16 +51,4 @@ while True:
 
 
 
-#     you = input("Enter your choice: ")
-#     yourcount  = you.count()
-#     if you == random1:
-#         times_won = yourcount + 1
-#
-# yourchoice()
-
-
-
-
-
-
 
